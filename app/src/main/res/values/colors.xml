@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="purple_200">#FFBB86FC</color>
+        <color name="purple_500">#FF6200EE</color>
+        <color name="purple_700">#FF3700B3</color>
+        <color name="teal_200">#FF03DAC5</color>
+        <color name="teal_700">#FF018786</color>
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+        <color name="colorPrimary">#6200EE</color>
+        <color name="colorPrimaryDark">#3700B3</color>
+        <color name="colorAccent">#03DAC5</color>
+
+
+        <color name="backgroundColor">#FFFFFF</color>
+        <color name="backgroundColorDark">#121212</color>
+        <color name="cardBackground">#F5F5F5</color>
+
+
+        <color name="buttonColor">#FF5722</color>
+        <color name="buttonTextColor">#FFFFFF</color>
+
+
+        <color name="textColorPrimary">#212121</color>
+        <color name="textColorSecondary">#757575</color>
+        <color name="textColorWhite">#FFFFFF</color>
+        <color name="textColorError">#B00020</color>
+
+
+        <color name="dividerColor">#BDBDBD</color>
+
+        <color name="materialRed">#F44336</color>
+        <color name="materialPink">#E91E63</color>
+        <color name="materialPurple">#9C27B0</color>
+        <color name="materialDeepPurple">#673AB7</color>
+        <color name="materialIndigo">#3F51B5</color>
+        <color name="materialBlue">#2196F3</color>
+        <color name="materialLightBlue">#03A9F4</color>
+        <color name="materialCyan">#00BCD4</color>
+        <color name="materialTeal">#009688</color>
+        <color name="materialGreen">#4CAF50</color>
+        <color name="materialLightGreen">#8BC34A</color>
+        <color name="materialLime">#CDDC39</color>
+        <color name="materialYellow">#FFEB3B</color>
+        <color name="materialAmber">#FFC107</color>
+        <color name="materialOrange">#FF9800</color>
+        <color name="materialDeepOrange">#FF5722</color>
+        <color name="materialBrown">#795548</color>
+        <color name="materialGrey">#9E9E9E</color>
+        <color name="materialBlueGrey">#607D8B</color>
+        <color name="customGreen">#00C853</color>
+        <color name="customBlue">#2979FF</color>
+        <color name="customYellow">#FFEB3B</color>
+        <color name="customRed">#D32F2F</color>
+
+        <color name="shadeLightGray">#D3D3D3</color>
+        <color name="shadeDarkGray">#424242</color>
+        <color name="shadeBlueGray">#78909C</color>
+        <color name="shadeLightPurple">#E1BEE7</color>
+        <color name="shadeSoftPink">#F8BBD0</color>
+        <color name="LIGHTBLUE">#EAF2FF</color>
+        <color name="LIGHTPINK">#F6DCDC</color>
+        <color name="pitchblack">#2C3643</color>
+
+</resources>

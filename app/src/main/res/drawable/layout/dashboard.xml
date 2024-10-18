@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="@color/LIGHTPINK">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_login_cardinfo"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:cardBackgroundColor="#EBB"
+            app:cardCornerRadius="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            app:cardElevation="16dp"
+            app:cardMaxElevation="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp">
+
+            <!-- LinearLayout with horizontal orientation to align ImageView and TextView -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+                <!-- ImageView (Logo) -->
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/person"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_corner" />
+
+                <!-- TextView (Label) on the right side of ImageView -->
+                <TextView
+                    android:id="@+id/logo_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:text="Shrinivas Chavan"
+                    android:textColorHint="@color/purple_200"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center_vertical" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/logo_label1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="Current Loaction"
+            android:autoSizeMaxTextSize="2dp"
+            android:textStyle="bold"
+            android:textColorHint="@color/purple_200"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
